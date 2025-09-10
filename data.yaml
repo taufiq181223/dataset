@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['Alumunium_can', 'Bottle']
+
+roboflow:
+  workspace: sven-smartbin-fsffe
+  project: sven-smartbin-oc1n5
+  version: 1
+  license: Private
+  url: https://app.roboflow.com/sven-smartbin-fsffe/sven-smartbin-oc1n5/1
